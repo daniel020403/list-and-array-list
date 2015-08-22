@@ -5,7 +5,12 @@ import java.util.ArrayList;
  */
 public class GroceryList
 {
-    private ArrayList<String> groceryList = new ArrayList<String>();
+    private ArrayList<String> groceryList;
+
+    public GroceryList()
+    {
+        groceryList = new ArrayList<String>();
+    }
 
     public void addGroceryItem(String item)
     {
